@@ -6,14 +6,16 @@ int main (){
 	
 	printf("Insira um numero inteiro entre 1 e 5: ");
 	scanf("%i", &curso);
-	switch (curso){
-		
+	
+	switch (curso){ //O curso será escolhido a partir do valor de 1 a 5 digitado pelo usuário
 		case 1: printf("Engenharia\n"); break;
-		case 2: printf("Edifica��es\n"); break;
+		case 2: printf("Edificações\n"); break;
 		case 3: printf("Sistemas Eletricos\n"); break;
 		case 4: printf("Turismo\n"); break;
 		case 5: printf("Analise de Sistemas\n"); break;
 		default: printf("curso invalido"); break;
 	}
+	
 	return 0;
 }
+
