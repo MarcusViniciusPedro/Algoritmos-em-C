@@ -10,8 +10,9 @@ int main() {
   printf("Digite um numero-chave inteiro entre 0 e 100: ");
   scanf("%d", &num_ch);
 
-  D = abs(num_ch - num_digit);
+  D = abs(num_ch - num_digit); //Realiza a subtração dos valores, o "abs" garantirá que a função possua, ao final da operação um valor absoluto/inteiro positivo
   printf("A distancia entre %d e %d e: %d\n", num_digit, num_ch, D);
 
   return 0;
 }
+
