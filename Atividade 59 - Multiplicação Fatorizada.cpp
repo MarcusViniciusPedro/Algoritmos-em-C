@@ -6,12 +6,12 @@ int main () {
 		
 		printf("Entre com um numero:\n");
 		
-		for (i = 0; i <= 5; ++i){
+		for (i = 0; i <= 5; ++i){ //Coleta até 6 número
 			printf("O numero %i:", i + 1);
 			scanf("%i", &a[i]);
 			b[i] = 1;
 			
-			for (x = 1; x <= a[i]; ++x){
+			for (x = 1; x <= a[i]; ++x){ //Multiplica o número de forma fatorial (Ex: 6! = 6*5*4*3*2*1)
 				b[i] = b[i] * x;
 			}
 		}
@@ -22,3 +22,4 @@ int main () {
 		}
 		return 0;
 }
+
