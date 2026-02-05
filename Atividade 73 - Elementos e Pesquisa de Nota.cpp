@@ -15,7 +15,7 @@ int main (){
 		fgets(nome[i], 40, stdin);
 	}
 	
-	/*Ordenação de Strings*/
+	/*OrdenaÃ§Ã£o de Strings*/
 	for(i = 0; i <= 3; ++i)
 	for(j = i; j <= 4; ++j){
 		if(strcmp(nome[i], nome[j]) > 0){
@@ -25,7 +25,7 @@ int main (){
 		}
 	}
 	
-	/*Apresentação de Strings*/
+	/*ApresentaÃ§Ã£o de Strings*/
 	for(i = 0; i <= 4; ++i){
 	printf("Nome %2d: %s", i + 1, nome[i]);
     }
@@ -42,7 +42,7 @@ int main (){
 			j = j + 1;
 		}
 	}
-	printf ("\nFoi localizado em: %d", j + 1); /*Identificação espacial de onde o valor foi encontrado pela primeira vez*/
+	printf ("\nFoi localizado em: %d", j + 1); /*IdentificaÃ§Ã£o espacial de onde o valor foi encontrado pela primeira vez*/
 	
 	return 0;
 }
