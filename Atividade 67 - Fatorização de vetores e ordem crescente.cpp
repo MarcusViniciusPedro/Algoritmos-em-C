@@ -2,14 +2,14 @@
 
 int main (){
 	
-	int A[5], B[5], i, j, x; /*Para fazer um bubble sort simples deve-se conter 3 vari·veis (Ex: i, j, x)
-	eles realizar„o o processo de troca de posiÁ„o no intervalo desejado*/
+	int A[5], B[5], i, j, x; /*Para fazer um bubble sort simples deve-se conter 3 vari√°veis (Ex: i, j, x)
+	eles realizar√£o o processo de troca de posi√ß√£o no intervalo desejado*/
     
 	for(i = 0; i < 5; ++i){
 		printf("Digite %d numero: ", i + 1); /*Requerimento de valores*/
 		scanf("%d", &A[i]); /*Leitura de valores de A[i]*/
 	}
-	/*FatorizaÁ„o dos valores em A[i]*/
+	/*Fatoriza√ß√£o dos valores em A[i]*/
 	for(i = 0; i < 5; ++i){
 		int fat = 1;
 		for(j = 1; j <= A[i]; ++j){
@@ -29,7 +29,7 @@ int main (){
 		}
 		printf("O vetor B com fatoriais em ordem crescente:\n"); /*Perfumaria*/
 		for(i = 0; i < 5; ++i){
-			printf("%d\n", B[i]); /*ApresentaÁ„o dos resultados*/
+			printf("%d\n", B[i]); /*Apresenta√ß√£o dos resultados*/
 		}
 		printf("\n");
 		return 0;
