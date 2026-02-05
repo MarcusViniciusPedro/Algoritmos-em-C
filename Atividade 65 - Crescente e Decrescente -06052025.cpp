@@ -4,14 +4,14 @@ int main (){
 	
 	int A[12], i, j, x;
 	
-	printf("Classificacao de Elementos Numericos\n\n"); /*Título da atividade/perfumaria*/
-	/*Petição para anexação de valores até 12, inseridos no A[i], de forma a dividir cada pedido no próximo número identificado pelo i + 1*/
+	printf("Classificacao de Elementos Numericos\n\n"); /*TÃ­tulo da atividade/perfumaria*/
+	/*PetiÃ§Ã£o para anexaÃ§Ã£o de valores atÃ© 12, inseridos no A[i], de forma a dividir cada pedido no prÃ³ximo nÃºmero identificado pelo i + 1*/
 	for(i = 0; i <= 11; ++i){
 		
 		printf("Informe o %i valor: ", i + 1);
 		scanf("%d", &A[i]);
 	}
-	/*Ordenação Bubble Sort para identificação de uma tabela do menor para o maior (Crescente)*/
+	/*OrdenaÃ§Ã£o Bubble Sort para identificaÃ§Ã£o de uma tabela do menor para o maior (Crescente)*/
 	for(i = 0; i <= 10; ++i)
 	for(j = i+1; j <= 11; ++j){
 		
@@ -26,7 +26,7 @@ int main (){
 	for(i = 0; i <= 11; ++i){
 	printf("\n\n A ordem Crescente e %d: %d", i+1, A[i]); /*Resultado da ordem crescente*/
     }
-    /*Ordenação Bubble Sort para identificação de uma tabela do maior para o menor (Decrescente)*/
+    /*OrdenaÃ§Ã£o Bubble Sort para identificaÃ§Ã£o de uma tabela do maior para o menor (Decrescente)*/
 	for(i = 0; i <= 10; ++i)
 	for(j = i+1; j <= 11; ++j){
 		
@@ -44,3 +44,4 @@ int main (){
     
 	return 0;
 }
+
